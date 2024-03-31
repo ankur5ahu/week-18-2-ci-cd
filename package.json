@@ -11,7 +11,8 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "latest",
+    "db:generate":"cd packages/db && npx prisma generate && cd ../.."
   },
   "engines": {
     "node": ">=18"
